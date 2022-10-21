@@ -1,0 +1,165 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body
+{
+    background-image: url("../images/denim.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+
+#psp
+{
+    width: 1000px;
+    max-width: 100%;
+    margin-top: -20%;
+    margin-left: 5%;
+
+}
+
+
+
+footer
+{
+    background-color: rgb(60, 77, 128);
+    text-align: center;
+    width: 100%;
+    display: inline-block;
+    height: 120px;
+    left: 0;
+    bottom: 0;
+    z-index: 1;
+
+}
+
+footer i
+{
+    color: rgb(248, 154, 203);
+    width: 15%;
+    font-size: 80px;
+    
+}
+
+footer i:hover
+{
+color: white;
+}
+
+header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    background-color: rgb(60, 77, 128);
+    height: 100px;
+    z-index: 1;
+}
+
+nav {
+    display: grid;
+    grid-template-columns: 10% 10% 10% 20% 10% 10% 10%;
+    justify-content: center;
+    text-align: center;
+    margin-top: 25px;
+}
+
+nav figure img {
+    height: 100px;
+    padding: 0;
+    width: 100px;
+    top: 0;
+}
+
+
+nav section a {
+    color: rgb(248, 154, 203);
+    text-decoration: none;
+    font-size: x-large;
+    font-family:'Tourney', cursive;
+    top: 20px;
+}
+
+.images{
+    text-align: center;
+    margin: 80px 0;
+    white-space: nowrap;
+  }
+  .images li{
+    display: inline-block;
+    list-style-type: none;
+    width: 40%;
+    margin: 20px 5%;
+    position: relative;
+  }
+  .images li:hover{
+    top: -4px;
+  }
+  .images li img{
+    max-width: 100%;
+  }
+  .images {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+  }
+
+  #logo
+  {
+    margin-top: -8%;
+  }
+  .coverimage li {
+    -webkit-box-flex: 1;
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    margin: 5px;
+    height: 100px;}
+
+    h1
+    {
+        text-align: center;
+        font-size: 60px;
+        font-family:'Audiowide', cursive;
+        margin-top: 300px;
+        color: rgb(83, 178, 241);
+        font-style: italic;
+        text-shadow: 3px 3px 3px #020d4f;
+    }
+
+    p
+    {
+        color: rgb(83, 178, 241); 
+        text-align: center; 
+        font-family:'Audiowide', cursive;
+        font-size: 30px;
+    }
+
+    main
+    {
+    background-color: rgb(251, 188, 222);
+    width: 80%;
+    margin-left: 10%;
+    margin-bottom: 5%;
+    }
+
+    .sunglasses
+    {
+        height: 300px;
+        margin-left: 38%;
+    }
+
+    .info
+    {
+        text-align: center;
+    }
+
+    #tekst
+    {
+        font-size: 20px;
+    }

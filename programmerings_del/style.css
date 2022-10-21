@@ -1,0 +1,282 @@
+
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body
+{
+    background-image: url("../images/denim.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+
+#psp
+{
+    width: 1000px;
+    max-width: 100%;
+    margin-top: -20%;
+    margin-left: 5%;
+
+}
+
+.container:hover
+{
+    top: -4px;
+}
+.titel
+{
+    margin-top: 200px;
+}
+
+h1
+{
+    text-align: center;
+    font-size: 100px;
+    font-family:'Audiowide', cursive;
+    color: rgb(83, 178, 241);
+    font-style: italic;
+    margin-bottom: 30%;
+    margin: 20px;
+    top: 50%;
+    text-shadow: 3px 3px 3px #020d4f;
+
+    border: 8px solid rgb(248, 154, 203);
+    padding: 6px 12px;
+    border-radius: 36px;
+    background-color:rgb(251, 188, 222);
+    
+   
+}
+.container
+{
+    margin-top: 200px;
+}
+
+h2
+{
+    text-align: center;
+    font-size: 100px;
+    font-family:'Audiowide', cursive;
+    color: rgb(83, 178, 241);
+    font-style: italic;
+    margin-bottom: 30%;
+    margin: 20px;
+    top: -20%;
+    text-shadow: 3px 3px 3px #020d4f;
+
+    border: 8px solid rgb(248, 154, 203);
+    padding: 6px 12px;
+    border-radius: 36px;
+    background-color: rgb(251, 188, 222);
+    
+}
+
+footer
+{
+    background-color:  rgb(60, 77, 128);
+    
+    text-align: center;
+    width: 100%;
+    display: inline-block;
+    height: 120px;
+    left: 0;
+    bottom: 0;
+    z-index: 1;
+
+}
+
+footer i
+{
+    color:rgb(248, 154, 203);
+    width: 15%;
+    font-size: 80px;
+}
+
+footer i:hover
+{
+color: white;
+}
+
+
+header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    background-color:  rgb(60, 77, 128);
+    height: 100px;
+    z-index: 1;
+}
+
+nav {
+    display: grid;
+    grid-template-columns: 10% 10% 10% 20% 10% 10% 10%;
+    justify-content: center;
+    text-align: center;
+    margin-top: 25px;
+}
+
+nav figure img {
+    height: 100px;
+    padding: 0;
+    width: 100px;
+    top: 0;
+}
+
+
+nav section a {
+    color: rgb(251, 188, 222);
+    text-decoration: none;
+    font-size: x-large;
+    font-family:'Tourney', cursive;
+    top: 20px;
+}
+
+nav section a:hover
+{
+    color: white;
+    text-decoration: underline;
+}
+
+.container
+{
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.text
+{
+position: absolute;
+  top: -70px;
+  left: 33%;
+  text-align: left;
+  font-family: 'Tourney', cursive;
+  color: rgb(83, 178, 241);
+  font-style: italic;
+  font-size: medium;
+
+}
+
+h3
+{
+    font-size: x-large;
+    font-family:'Tourney', cursive;
+    color: rgb(83, 178, 241);
+    text-shadow: 3px 3px 3px #6d7ac5;
+}
+
+#croptop
+{
+position: absolute;
+top: 8px;
+left: 105%;
+width: 85%;
+
+}
+
+#logo
+  {
+    margin-top: -8%;
+  }
+
+  i
+  {
+    height: 30px;
+  }
+
+ 
+  .images{
+  text-align: center;
+  margin: 80px 0;
+  white-space: nowrap;
+}
+.images li{
+  display: inline-block;
+  list-style-type: none;
+  width: 40%;
+  margin: 20px 5%;
+  position: relative;
+}
+.images li:hover{
+  top: -4px;
+}
+.images li img{
+  max-width: 100%;
+}
+.images {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+.coverimage li {
+  -webkit-box-flex: 1;
+  -ms-flex: 0 0 50%;
+  flex: 0 0 50%;
+  margin: 5px;
+  height: 100px;
+}
+.coverimage img
+{
+
+    position: relative;
+    text-align: center;
+    color: white;
+    padding: -50px;
+}
+
+
+
+p
+{
+    font-size: 25px;
+    font-family:'Tourney', cursive;
+    color: rgb(83, 178, 241);
+    text-decoration: none;
+
+    border: 8px solid rgb(248, 154, 203);
+    padding: 6px 12px;
+    border-radius: 36px;
+    background-color: rgb(248, 154, 203);
+    text-shadow: 3px 3px 3px #6d7ac5;
+}
+.container a
+{
+    text-decoration: none;
+}
+
+p:hover
+{
+    color: white;
+    
+}
+
+.subtext
+{
+    position: absolute;
+    transform: translate(-50%,-50%);     
+    font-size: 15px;
+    font-family:'Tourney', cursive;
+    color: rgb(83, 178, 241);
+    top: 280px;
+    left: 40%;
+    text-align: left;
+    
+        
+}
+
+.artikel-billede
+{
+    height: 100px;
+    position: absolute;
+    float: right;
+    left: 110px;
+    top: -150px;
+    
+}
